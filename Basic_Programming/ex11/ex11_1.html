@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Google Map</title>
+<script async defer type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCqZsIxV4Q-XpQWfbJSd5STpza8JQ7qnZs"></script>
+<script src="ex11_1.js"></script>
+<link rel="stylesheet" type="text/css" href="basic_programing_class.css">
+</head>
+
+<body>
+<div id="map" style="width:300px;height:300px;margin:auto"></div>
+<br>
+<div id="center"></div>
+<br>
+<div id="zoom"></div>
+<hr>
+<h1>課題</h1>
+<input type="text" id="lat" placeholder="緯度">
+<input type="text" id="lng" placeholder="経度">
+<input type="text" id="ratio" placeholder="倍率">
+<br>
+<input type="button" value="緯度経度変更" onClick="set_Center();">
+<input type="button" value="倍率変更" onClick="set_Zoom();">
+<h2>追加機能</h2>
+<input type="button" value="座標の書き出し" onClick="get_Center();">
+<input type="button" value="倍率の書き出し" onClick="get_Zoom();">
+</body>
+</html>
