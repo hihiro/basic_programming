@@ -1,5 +1,5 @@
 function test(doko) {
-	var errors = "“š‚¦‚ğ‘I‘ğ‚µ‚Ä‰º‚³‚¢B";
+	var errors = "ç­”ãˆã‚’é¸æŠã—ã¦ä¸‹ã•ã„ã€‚";
 	var dore = -1;
 	for (var i = 0; i < 3; i++) {
 		if (document.forms[doko].elements[i].checked === true) {
